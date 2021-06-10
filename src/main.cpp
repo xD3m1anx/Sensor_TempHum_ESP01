@@ -166,12 +166,12 @@ void loop() {
 
 /* --------------------------------------------------------------------------------------------------------------- */
 
-BLYNK_READ(V10) {
+BLYNK_READ(BPIN_HUMIDITY) {
     Blynk.virtualWrite(BPIN_HUMIDITY, humidity);
 }
 
 
-BLYNK_READ(V11) {
+BLYNK_READ(BPIN_TEMPERATURE) {
     Blynk.virtualWrite(BPIN_TEMPERATURE, temperature);
 }
 
