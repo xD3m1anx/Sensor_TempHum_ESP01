@@ -133,6 +133,7 @@ void setup() {
   #endif
   #endif
 
+
   sensorDht.setup(DHT_DATA_PIN, DHTesp::DHT11);
   Blynk.begin(BLYNK_AUTH_TOKEN, ssid, password, BLYNK_SERVER_IP, 8080);
   timer_Uptime.setInterval(1000UL, localUptime);
